@@ -21,7 +21,8 @@
         <h2>Meu primeiro Post</h2>
         <p class="autor"> Por: Ana Clara</p>
         <p>Meu primeiro post sobre tecnologia</p>
-        <button>👍 0 <span> 0 </span></button>
+        <button>👍<span> 0 </span></button>
+        <button>👎<span> 0 </span></button>
         </div>
     </main>
     <footer>
@@ -29,14 +30,22 @@
     </footer>
 </body>
 <script>
-    const botao = document.querySelector("button");
-    botao.addEventListener("click", botaoClicado);
-
-    function botaoClicado() {
-        console.log("fui clicado");
-        let texto = botao.querySelector("span");
-        texto.textContent==;
+    const botoes = document.querySelectorA11("button");
+    botoes.forEach(function(botao){
+        let curtiu = false;
+        botoes.addEventListener("click", botoesClicado);
+          function botoesClicado(){
+            console.log("fui clicado");
+              let texto = botao.querySelector("span");
+              if(curtiu  === false)
+              texto.textContent++;   
+               curtiu = true;
     }
-
+    else{
+        texto.textContent--;
+        curtiu = false;
+    }
+    )
+ }
 </script>
 </html>

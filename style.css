@@ -1,0 +1,30 @@
+
+hheader{
+background-color: #336318ad;
+color: white;
+text-align: center;
+max-width: 800px;
+margin: 0 auto;
+}
+
+main{
+background-color: white;
+color: #186322b2;
+text-align: center;
+max-width: 800px;
+margin: 0 auto;
+border: 5px solid rgba(115, 255, 0, 0.137);
+padding: 15px;
+}
+
+footer{
+background-color: #30631894;
+color: white;
+text-align: center;
+max-width: 800px;
+margin: 0 auto;
+}
+
+.autor{   
+font-weight: bolds;
+}

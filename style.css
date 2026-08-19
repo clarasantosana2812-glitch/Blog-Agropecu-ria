@@ -15,6 +15,7 @@ max-width: 800px;
 margin: 0 auto;
 border: 5px solid rgba(115, 255, 0, 0.137);
 padding: 15px;
+display: flex;
 }
 
 footer{
@@ -26,5 +27,10 @@ margin: 0 auto;
 }
 
 .autor{   
-font-weight: bolds;
+font-weight: bold;
+}
+
+imag{
+height:10%;
+width:10%;
 }
